@@ -61,7 +61,7 @@ section {
         align-content: center;
     }
 
-    nav ul li:first {
+    nav ul li {
         margin-right: 0px;
     }
 }
