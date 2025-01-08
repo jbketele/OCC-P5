@@ -1,12 +1,9 @@
 //votre code ici
 function printNumbers(n) {
-    let resultat = "";
+    let resultat = [];
     for (let i = 1; i <= n; i++) {
-        resultat += i;
-        if (i < n) {
-            resultat += " ";
-        }
+        resultat.push(i);
     }
-    return resultat;
+    return resultat.join(" ");
 }
 export default printNumbers
